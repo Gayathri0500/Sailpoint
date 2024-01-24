@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE SyslogEvent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<SyslogEvent classname="sailpoint.api.Explanator" eventLevel="ERROR" lineNumber="939" quickKey="0000000501" server="LAPTOP-9SCDGNAQ" thread="ServerThread" username="Services">
+  <EventMessage>sailpoint.tools.GeneralException: could not prepare statement</EventMessage>
+</SyslogEvent>

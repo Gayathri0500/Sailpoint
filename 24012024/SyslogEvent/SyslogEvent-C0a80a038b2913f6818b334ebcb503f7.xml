@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE SyslogEvent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<SyslogEvent classname="sailpoint.server.HeartbeatService$HeartbeatThread" eventLevel="ERROR" lineNumber="551" quickKey="0000001753" server="LAPTOP-9SCDGNAQ" thread="HeartbeatThread" username="system">
+  <EventMessage>sailpoint.tools.GeneralException: Unable to acquire JDBC Connection
+	at sailpoint.persistence.HibernatePersistenceManager.getObjectByName(HibernatePersistenceManager.java:682)
+	at sailpoint.persistence.ClassPersistenceManager.getObjectByName(ClassPersistenceManager.java:266)
+	at sailpoint.server.InternalContext.getObjectByName(InternalContext.java:605)
+	at sailpoint.server.HeartbeatService$HeartbeatThread.updateHeartbeat(HeartbeatService.j...</EventMessage>
+</SyslogEvent>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE SyslogEvent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<SyslogEvent classname="sailpoint.api.TaskManager" eventLevel="ERROR" lineNumber="934" quickKey="0000001278" server="LAPTOP-9SCDGNAQ" thread="QuartzScheduler_Worker-4" username="Scheduler">
+  <EventMessage>Exception: [C:\Users\gayathri\OneDrive\Documents\Sailpoint\Upgrade\Sailpoint\Application\Application-Hr-app.xml (The system cannot find the path specified)]</EventMessage>
+  <Stacktrace>sailpoint.tools.GeneralException: C:\Users\gayathri\OneDrive\Documents\Sailpoint\Upgrade\Sailpoint\Application\Application-Hr-app.xml (The system cannot find the path specified)
+	at sailpoint.tools.Util.writeFile(Util.java:2569)
+	at sailpoint.tools.Util.writeFile(Util.java:2593)
+	at com.sailpoint.pse.plugin.objectexporter.ObjectExporter.exportClassObjects(ObjectExporter.java:611)
+	at com.sailpoint.pse.plugin.objectexporter.ObjectExporter.execute(ObjectExporter.java:290)
+	at sailpoint.api.TaskManager.runSync(TaskManager.java:909)
+	at sailpoint.api.TaskManager.runSync(TaskManager.java:724)
+	at sailpoint.scheduler.JobAdapter.execute(JobAdapter.java:128)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.FileNotFoundException: C:\Users\gayathri\OneDrive\Documents\Sailpoint\Upgrade\Sailpoint\Application\Application-Hr-app.xml (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:126)
+	at sailpoint.tools.Util.writeFile(Util.java:2555)
+	... 8 more
+</Stacktrace>
+</SyslogEvent>

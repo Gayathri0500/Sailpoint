@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE SyslogEvent PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<SyslogEvent classname="sailpoint.server.CacheService" eventLevel="ERROR" lineNumber="383" quickKey="0000002121" server="LAPTOP-9SCDGNAQ" thread="ServerThread" username="Services">
+  <EventMessage>No modification date for: ObjectConfig:Identity</EventMessage>
+</SyslogEvent>

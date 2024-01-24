@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TaskResult PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<TaskResult completed="1665666703956" completionStatus="Success" host="LAPTOP-9SCDGNAQ" launched="1665666702892" launcher="spadmin" name="HR-App Aggregation" runLength="1" runLengthAverage="1" schedule="c1d2126cea23480198beb1423860219e" type="AccountAggregation">
+  <Attributes>
+    <Map>
+      <entry key="applications" value="HR-App"/>
+      <entry key="internalUpdates" value="1"/>
+      <entry key="optimized" value="6"/>
+      <entry key="policies"/>
+      <entry key="total" value="6"/>
+    </Map>
+  </Attributes>
+  <Definition>
+    <Reference class="sailpoint.object.TaskDefinition" name="HR-App Aggregation"/>
+  </Definition>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+</TaskResult>
